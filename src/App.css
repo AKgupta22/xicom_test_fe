@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container .main-container_form {
+  background-color: #796c6c;
+  height: 500px;
+  width: fit-content;
+  border-radius: 4px;
+  padding: 1rem;
+  color: #fff;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.common-wh {
+  height: 100%;
+  width: 100%;
+}
